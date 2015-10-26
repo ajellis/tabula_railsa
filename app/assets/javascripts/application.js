@@ -14,3 +14,6 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+
+<button onclick="document.getElementById('button').disabled=true;document.getElementById('button').disabled=false;" type="submit">
